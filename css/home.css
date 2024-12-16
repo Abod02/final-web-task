@@ -1,0 +1,88 @@
+
+body{
+    background: url('https://i.pinimg.com/736x/01/18/d8/0118d835135ee5ed9c3f804940b8826f.jpg') no-repeat center/cover ;
+    padding-top: 56px;
+}
+
+
+
+.navbar-scrolled {
+    background-color: #292e32 !important; 
+    transition: all 0.3s ease;
+  }
+  
+
+.hero-section {
+    height: 95vh;
+}
+
+.welcome {
+    color: #ececec;
+    animation: fade-in-out 4s infinite;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+@keyframes fade-in-out {
+    0%, 100% { opacity: 0; transform: translateY(-20px); }
+    50% { opacity: 1; transform: translateY(0); }
+}
+
+.lead {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption {
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+
+.contact-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+  }
+
+  .contact-link:hover {
+    color: #ffffff; 
+    text-decoration: underline; 
+  }
+
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+  }
+
+  .social-icon {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+    text-decoration: none;
+  }
+
+  .fa-facebook-f:hover {
+    color: #193be5; 
+    transform: scale(1.2);
+  }
+  .fa-twitter:hover {
+    color: #2192e8;
+    transform: scale(1.2);
+  }
+  .fa-instagram:hover {
+    color: #e1255d; 
+    transform: scale(1.2); 
+  }
+  .fa-linkedin-in:hover {
+    color: #2769ef; 
+    transform: scale(1.2); 
+  }
